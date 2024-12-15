@@ -128,7 +128,7 @@ def get_summary():
 
     conn.close()
     return jsonify({
-        "records": rows,
+        "records": rows,jee
         "total_amount": total_amount,
         "tax_due": tax_due
     })
