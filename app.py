@@ -128,10 +128,12 @@ def get_summary():
 
     conn.close()
     return jsonify({
-        "records": rows,jee
+        "records": rows,
         "total_amount": total_amount,
         "tax_due": tax_due
     })
+# key33
+# cat ~/.ssh/id_ed25519.pub
 
 if __name__ == '__main__':
     app.run(debug=True)
